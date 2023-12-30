@@ -1,0 +1,97 @@
+.details-part {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 80px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  margin-top: 70px;
+  background-image: url("../../homepage/img/detail-background.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+.container-fluid-form {
+  max-width: 495px;
+  background: #fff;
+  border: 1px solid #E5E8ED;
+  box-shadow: 0px 60px 80px -20px rgba(30, 33, 44, 0.16), 0px 26px 24px -10px rgba(30, 33, 44, 0.1), 0px 12px 10px -6px rgba(30, 33, 44, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+  border-radius: 4px;
+}
+
+.container-fluid-form .mb-3 {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.form-h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #1E212C;
+  padding-top: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container-fluid-form ::-moz-placeholder {
+  padding-top: 11px;
+  padding-left: 16px;
+  padding-bottom: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #9A9CA5 !important;
+}
+
+.container-fluid-form ::placeholder {
+  padding-top: 11px;
+  padding-left: 16px;
+  padding-bottom: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #9A9CA5 !important;
+}
+
+.container-fluid-form ::-moz-placeholder:last-child {
+  padding-bottom: 34px;
+}
+
+.container-fluid-form ::placeholder:last-child {
+  padding-bottom: 34px;
+}
+
+.form-control {
+  background-color: #F4F5F7;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  width: 415px;
+  height: 44px;
+}
+
+form #exampleInputMessage1 {
+  height: 66px;
+}
+
+.form-check-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #424551;
+  margin-left: 12px;
+}
+
+.form-check-input:checked {
+  background-color: #0d168b;
+  border: 1px solid #0d168b;
+  border-radius: 3px;
+}
+
+.submit-btn {
+  background: #0d168b !important;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding-left: 32px;
+  padding-right: 32px;
+}/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,79 @@
+.cns__header .container {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.cns__nav ul {
+  list-style-type: none;
+}
+
+.cns__nav ul li {
+  margin-left: 40px;
+}
+
+.cns__nav ul li a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  text-decoration: none;
+}
+
+.cns__nav ul li a:hover {
+  color: #0d168b;
+}
+
+.call-text, .message-text {
+  padding-left: 12px;
+  line-height: 150%;
+}
+
+.header-connection span {
+  font-weight: 700;
+  font-size: 14px;
+  color: #424551;
+}
+
+.header-connection p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #1E212C;
+}
+
+.message {
+  padding-left: 36px;
+}
+
+.cns-background {
+  background-image: url(./img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+}
+
+li.breadcrumb-item.active a {
+  color: #424551;
+}
+
+li.breadcrumb-item {
+  color: #9A9CA5;
+}
+
+.services-h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 130%;
+  color: #1E212C;
+  padding-top: 40px;
+  letter-spacing: 1px;
+}
+
+.services-desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #787A80;
+  padding-bottom: 180px;
+  padding-top: 24px;
+}/*# sourceMappingURL=header.css.map */

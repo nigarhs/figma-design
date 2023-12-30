@@ -1,0 +1,193 @@
+$gray200 :#F4F5F7;
+$gray300:#E5E8ED;
+$gray400:#D7DADD;
+$gray600: #9A9CA5;
+$gray700:#787A80;
+$gray800: #424551;
+$gray900:#1E212C;
+$blue: #0d168b;
+$white:#fff;
+
+.cns__footer {
+    padding-top: 80px;
+    background-color:$gray900;
+}
+
+.footer-logo{
+    padding-bottom: 24px;
+}
+
+.socials{
+    display: inline-flex;
+    padding-left: 60px;
+    align-items: center;
+}
+
+.socials i{
+    opacity: 0.5;
+
+}
+
+.socials a:hover i{
+    opacity: 1;
+
+}
+
+.socials li:not(:last-child){
+    padding-right: 18px;
+}
+
+.footer-desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgb(255, 255, 255,0.6);
+    padding-bottom: 73px;
+    margin: 0;
+}
+
+.head-office-ul{
+    padding-left: 0;
+}
+
+.head-office-ul li:not(:last-child){
+    padding-bottom: 4px;
+}
+
+.our-experience{
+    padding-top: 50px;
+}
+
+
+.head-office-text , .who-we-are-text , .our-experience-text{
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color:$white;
+
+}
+
+.head-office-main{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    color:$white;
+}
+
+.head-office-desc , .who-we-are-desc a, .our-experience-desc a {
+    font-weight: 400;
+    line-height: 160%;
+    font-size: 16px;
+    color: rgb(255, 255, 255,0.65);
+}
+
+.stay-in-touch-p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: $white;
+}
+
+
+
+.cns__footer {
+    .form-control{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 4px 0 0 4px;
+}
+}
+
+// .stay-in-touch {
+.cns__footer{
+
+    form input {
+    border: 1px solid $gray400;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    padding-top: 11px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    background-color: $gray200;
+}
+}
+
+.cns__footer form input{
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.12);
+
+}
+
+.form-message input {
+    width: 414px;
+}
+
+.cns__footer {
+    input[type=submit] {
+    height: 44px;
+    width: 104px;
+    color: $white;
+    }
+}
+
+.pl-10{
+    padding-left: 10px;
+}
+
+.pl-100{
+    padding-left: 100px;
+}
+
+.input-email{
+    width: 364px;
+}
+
+.email-subscribtion ::placeholder{
+    padding-top: 11px!important;
+    padding-left: 16px!important;
+    padding-bottom: 12px!important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgb(255, 255, 255,0.6);
+}
+
+.email-subscribtion-button{
+    height: 44px;
+    background: $blue;
+    border-radius: 0px 4px 4px 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    /* line-height: 44px; */
+    letter-spacing: 0.5px;
+    border-color: transparent;
+}
+
+.subscribtion-desc{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgb(255, 255, 255,0.6);
+}
+
+.go-to-top{
+    padding-top: 38px;
+    padding-bottom: 80px;
+    padding-left: 362px;
+}
+
+.go-to-top-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color:$white;
+    text-transform: uppercase;
+    padding-right: 16px;
+}

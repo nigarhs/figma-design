@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.service-types .row {
+  padding-top: 120px;
+}
+
+.service-types .row:last-child {
+  padding-bottom: 180px;
+}
+
+.service-types .row .col-6:nth-child(even) {
+  padding-left: 80px;
+}
+
+.card-h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #1E212C;
+  padding-bottom: 24px;
+}
+
+.card-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #787A80;
+  padding-bottom: 48px;
+}
+
+.learn-more-btn {
+  border: 1px solid #0d168b;
+  border-radius: 4px;
+  padding: 0px 32px;
+  display: inline-block;
+}
+
+.learn-more-btn a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #0d168b;
+}/*# sourceMappingURL=services.css.map */

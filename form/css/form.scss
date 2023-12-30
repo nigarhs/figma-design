@@ -1,0 +1,94 @@
+$gray200 :#F4F5F7;
+$gray300:#E5E8ED;
+$gray400:#D7DADD;
+$gray600: #9A9CA5;
+$gray700:#787A80;
+$gray800: #424551;
+$gray900:#1E212C;
+$blue: #0d168b;
+$white:#fff;
+
+.details-part{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    margin-top: 70px;
+    background-image: url("../../homepage/img/detail-background.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.container-fluid-form{
+    max-width: 495px;
+    background: $white;
+    border: 1px solid $gray300;
+    box-shadow: 0px 60px 80px -20px rgba(30, 33, 44, 0.16), 0px 26px 24px -10px rgba(30, 33, 44, 0.1), 0px 12px 10px -6px rgba(30, 33, 44, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+    border-radius: 4px;
+}
+
+.container-fluid-form .mb-3{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.form-h3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: $gray900;
+    padding-top: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.container-fluid-form ::placeholder{
+    padding-top: 11px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: $gray600!important
+}
+
+.container-fluid-form ::placeholder:last-child{
+    padding-bottom: 34px;
+}
+
+.form-control{
+    background-color: $gray200;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    width: 415px;
+    height: 44px;
+}
+
+form #exampleInputMessage1{
+    height: 66px;
+}
+
+.form-check-label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: $gray800;
+    margin-left: 12px;
+}
+
+.form-check-input:checked{
+    background-color: $blue;
+    border: 1px solid $blue;
+    border-radius: 3px;
+}
+
+.submit-btn{
+    background: $blue !important;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding-left: 32px;
+    padding-right: 32px
+}

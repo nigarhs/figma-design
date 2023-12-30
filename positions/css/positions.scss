@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+$gray200: #f4f5f7;
+$gray300: #e5e8ed;
+$gray400: #d7dadd;
+$gray600: #9a9ca5;
+$gray700: #787a80;
+$gray800: #424551;
+$gray900: #1e212c;
+$blue: rgba(13, 21, 140);
+$blueHover: rgba(13, 21, 140, 0.5) ;
+$white: #fff;
+
+.positionsAndBenefits {
+  padding-top: 120px;
+}
+
+.vacancy {
+  border-radius: 4px;
+  border: 1px solid $gray300;
+  padding:32px 40px;
+  margin-bottom: 24px;
+  
+  .locationAndTime {
+      span {
+        color: $gray700;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%; 
+        padding-left: 8px;
+      }
+      span:first-of-type::after {
+        content: '|';
+        padding-right: 12px;
+        padding-left: 12px;
+      }
+    }
+  }
+
+.jobName {
+  color:$gray900;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+  padding-top: 8px;
+}
+
+.outlined-button , .filled-button {
+  border-radius: 4px;
+  border: 1px solid $blue;
+  height: 52px;
+  min-width: 150px;
+  color: $white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px; 
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .4s ease;
+  }
+
+.filled-button {
+  background-color: $blue;
+  margin-left: 15px;
+}
+
+.filled-button:hover {
+  background-color: $blueHover;
+  border-color: $blueHover;
+  }
+
+.outlined-button {
+  background-color: transparent;
+  color: $blue;
+  margin-right: 15px;
+}
+
+.outlined-button:hover {
+  background-color: $blue;
+  color: $white;
+}
+
+.vacancy:hover {
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+} 
+
+.newVacancies {
+  padding-left: 135px;
+
+    .newVacancies-h3 {
+      color: $gray900;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 150%;
+      padding-bottom: 24px;
+    }
+
+    .newVacancies-p {
+      color: $gray800;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 150%; 
+      padding-bottom: 48px;
+    }
+}
+
+.benefits {
+  padding-top: 180px;
+
+    h2 {
+      color: $gray900;
+      text-align: center;
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 130%;
+      padding-bottom: 24px; 
+    }
+
+    p {
+      color:$gray700;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 150%; 
+      margin-bottom: 60px;
+    }
+
+    .benefit {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      border-right: 1px solid $gray400;
+
+      h5 {
+        color: $gray900;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 150%; 
+        padding-bottom: 8px;
+        padding-top: 24px;
+      }
+
+      p {
+        color: $gray700;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 160%;
+      }
+    }
+
+    .benefit:last-of-type {
+      border: none;
+
+      }
+
+    }
+
+.modal-backdrop {
+  background: $gray900;
+  opacity: 0.75;
+}
+
+form {
+
+  .form-element {
+    margin-bottom: 20px;
+  }
+
+  .form-element-last {
+    display: flex;
+    margin-left: -292px;
+    margin-bottom: 40px;
+
+    img {
+      padding-right: 12px;
+    }
+  }
+
+  .form-label , select {
+    color: $gray800;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-bottom: 8px;
+  }
+  
+  .form-control {
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid $gray400;
+    background-color: $gray200;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+  .form-control::placeholder , select {
+    color: $gray600;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+}
+
+.cns-main-modal {
+
+  .modal-dialog {
+    max-width: 486px;
+  }
+
+  .modal-content { 
+    background-color: $white;
+    border-radius: 4px;
+    border: 1px solid $gray300;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05), 0px 12px 10px -6px rgba(30, 33, 44, 0.08), 0px 26px 24px -10px rgba(30, 33, 44, 0.10), 0px 60px 80px -20px rgba(30, 33, 44, 0.16);
+    padding: 48px;
+  }
+
+  .modal-h4 {
+    color: $gray900;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%; 
+    margin-bottom: 24px;
+  }
+
+  .btn-close {
+    position: relative;
+    top: -10px;
+    right: -10px;
+  }
+}
+
+.first-part {
+  margin-bottom: 20px;
+}
+
+.second-part {
+  margin-bottom: 40px;
+}
+
+.form-button {
+  height: 44px;
+  line-height: 40px;
+  width: 415px;
+}

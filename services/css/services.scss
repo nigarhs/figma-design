@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+$gray200 :#F4F5F7;
+$gray300:#E5E8ED;
+$gray400:#D7DADD;
+$gray600: #9A9CA5;
+$gray700:#787A80;
+$gray800: #424551;
+$gray900:#1E212C;
+$blue: #0d168b;
+$white:#fff;
+
+.service-types .row{
+    padding-top: 120px;
+}
+
+.service-types .row:last-child{
+    padding-bottom: 180px;
+}
+
+.service-types .row .col-6:nth-child(even){
+    padding-left: 80px;
+}
+
+.card-h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: $gray900;
+    padding-bottom: 24px;
+}
+
+.card-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: $gray700;
+    padding-bottom: 48px;
+}
+
+.learn-more-btn{
+    border: 1px solid $blue;
+    border-radius: 4px;
+    padding: 0px 32px;
+    display: inline-block;
+}
+
+.learn-more-btn a{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: $blue;
+    
+}   

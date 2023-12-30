@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+$gray200: #f4f5f7;
+$gray300: #e5e8ed;
+$gray400: #d7dadd;
+$gray600: #9a9ca5;
+$gray700: #787a80;
+$gray800: #424551;
+$gray900: #1e212c;
+$blue: rgba(13, 21, 140);
+$blueHover: rgba(13, 21, 140, 0.5) ;
+$white: #fff;
+
+
+.services-h1 {
+    color: $gray900;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%; /* 76.8px */
+    letter-spacing: 1px;
+}
+
+.cns-background {
+    background-color: $gray200;
+    height: 600px;
+}
+
+.aboutUs {
+    .industry-list {
+        padding-top: 48px;
+        padding-bottom: 43px;
+
+        li:not(:last-child) {
+            padding-right: 12px;
+          }
+    
+          li:not(:last-child)::after {
+            content: "|";
+            padding-left: 12px;
+          }
+          li:first-child {
+            color: $blue;
+            font-weight: 700;
+            line-height: 160%;
+            font-size: 16px;
+          }
+          li:not(:first-child) {
+            color:$gray700;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 160%; /* 25.6px */
+          }
+    }
+}
+
+.socials-list {
+    li:not(:last-child) {
+        img {
+            padding-right: 12px;
+        }
+    }
+}
+
+.info {
+    .info-texts {
+        max-width: 810px;
+        margin: 33px auto 60px;
+    }
+
+    .info-boldText {
+        color: $gray900;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 150%; /* 30px */
+    }
+
+    .info-simpleText {
+        color: $gray800;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+    }
+
+    .info-main-img {
+        position: relative;
+        top: -39px;
+    }
+
+    .info-quote {
+        img {
+            margin-right: 30px;
+        }
+    }
+
+    .info-socials {
+        margin-left: 245px;
+        margin-bottom: 100px;
+
+        span {
+            color:$gray900;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 160%; 
+            margin-right: 12px;
+        }
+
+        img:not(:last-child) {
+            margin-right: 12px;
+        }
+        
+    }
+}
+
+.related-news {
+    background-color: $gray200;
+}
+
+.news__p{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    color: $gray900;
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+
+.news{
+    background-color: $white;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+
+}
+
+.news__img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    /* min-width: 100%;
+    min-height: 100%; */
+}
+
+.news__h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: $gray900;
+    padding-bottom: 12px;
+}
+
+.news-about {
+    li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: $gray700;
+}
+}
+
+.news-about li:not(:last-child){
+    padding-right: 12px;
+}
+
+.news-about li:not(:last-child)::after{
+    content: "|";
+    padding-left: 12px;
+}
+
+.news-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: $gray800;
+}
+
+.news-text{
+    height: 192px;
+}
+
+.news-1{
+    width: 705px;
+}
+
+.news-3{
+    padding-top: 30px;
+}
+
+.col-4 .news{
+    width: 495px;
+    height: 255px;
+}
+
+.browse-projects-span {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: $gray900;
+    padding-right: 40px;
+
+}
+
+.portfolio-btn {
+    background-color: $blue;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.portfolio-btn {
+    a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: $white;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+}
+
+.explore-us {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+
+.comments {
+    background-color: $white;
+
+    .comment {
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+    }
+    .mainText {
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 130%;
+        color: $gray900;
+        margin-top: 100px;
+    }
+
+    .comment-author {
+        h2 {
+            color:$gray900;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%; /* 27px */
+        }
+        span {
+            color: $gray700;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 150%; /* 21px */
+        }
+    }
+
+    .comment-content {
+        span {
+            color: $gray800;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 160%; 
+            width: 630px;
+            text-align: left;
+        }
+
+        .tag-name {
+            font-weight: 700;
+            color: $blue;
+        }
+        .reply {
+            span {
+                color:$gray700;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 150%; /* 21px */
+                margin-left: 8px;               
+            }
+        }
+    }
+}  
+    .form__p {
+            color: $gray900;
+            text-align: center;
+            font-size: 46px;
+            font-weight: 700;
+            line-height: 130%; 
+            margin-top: 120px;
+            margin-bottom: 48px;
+        }
+
+    .leave-comment {
+        textarea {
+            background-color: $gray200;
+        }
+    }
+
+form {
+    button {
+        color: $white;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        background-color: $blue;
+        padding: 0 40px;
+        border-radius: 4px;
+    }
+}

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+$gray200: #f4f5f7;
+$gray300: #e5e8ed;
+$gray400: #d7dadd;
+$gray600: #9a9ca5;
+$gray700: #787a80;
+$gray800: #424551;
+$gray900: #1e212c;
+$blue: rgba(13, 21, 140);
+$blueHover: rgba(13, 21, 140, 0.5) ;
+$white: #fff;
+
+.categories {
+  background-color: rgba(255,255,255,0.2);
+.categories-h2 {
+  color: $gray900;
+  text-align: center;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.categories-ul {
+  margin-bottom: 60px;
+
+.li-active {
+ color: $blue;
+ border-radius: 4px;
+ border: 1px solid $blue; 
+ padding: 10px 70px;
+}
+
+li {
+  color: $gray600;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%; 
+  padding-left: 120px;
+}
+}
+}
+
+.news {
+  margin-bottom: 60px;
+
+  .news-body {
+    border-radius: 4px;
+    background: $white;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    width: 600px;
+    padding: 24px;
+
+    h4 {
+      color: $gray900;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 150%; /* 30px */
+    }
+
+    ul {
+      margin-top: 12px;
+      margin-bottom: 16px;
+
+      li {
+        color: $gray700;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%; /* 21px */
+      }
+      
+      li:not(:last-child) {
+        padding-right: 12px;
+      }
+
+      li:not(:last-child)::after {
+        content: "|";
+        padding-left: 12px;
+      }
+    }
+    p {
+      color: $gray800;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 160%; /* 25.6px */
+    }
+  }
+}
+
+.news:hover {
+  h4 {
+    color: $blue;
+  }
+}
+
+.pagination {
+  li {
+    a {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: $gray800;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%; /* 25.6px */
+}
+  }
+}

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.categories {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.categories .categories-h2 {
+  color: #1e212c;
+  text-align: center;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.categories .categories-ul {
+  margin-bottom: 60px;
+}
+.categories .categories-ul .li-active {
+  color: rgb(13, 21, 140);
+  border-radius: 4px;
+  border: 1px solid rgb(13, 21, 140);
+  padding: 10px 70px;
+}
+.categories .categories-ul li {
+  color: #9a9ca5;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  padding-left: 120px;
+}
+
+.news {
+  margin-bottom: 60px;
+}
+.news .news-body {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+  width: 600px;
+  padding: 24px;
+}
+.news .news-body h4 {
+  color: #1e212c;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+}
+.news .news-body ul {
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+.news .news-body ul li {
+  color: #787a80;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+.news .news-body ul li:not(:last-child) {
+  padding-right: 12px;
+}
+.news .news-body ul li:not(:last-child)::after {
+  content: "|";
+  padding-left: 12px;
+}
+.news .news-body p {
+  color: #424551;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+.news:hover h4 {
+  color: rgb(13, 21, 140);
+}
+
+.pagination li a {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #424551;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%; /* 25.6px */
+}/*# sourceMappingURL=news.css.map */
